@@ -4,7 +4,11 @@
 #include <Espalexa.h>
 Espalexa espalexa;
 // WiFi設定(家)
-
+const char *WIFI_SSID = "eoRT-1b3cdbf-g";
+const char *WIFI_PASS = "330e5c2e64e339";
+// Wifi設定(エンジニアハウス)
+// const char *WIFI_SSID ="HG8045-56A3-bg";
+// const char *WIFI_PASS ="bxhzy2sx";
 
 //時間設定
 const char *ntpServer = "pool.ntp.org";
